@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment4</title>
+    <style>
+        div,p{
+            margin-left: 2em;
+        }
+        p{
+            width: auto; 
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>Fourth Assignment</h2>
+    A. 1) Enter your Date of Birth(in mm/dd/yyyy format) to determine Age :-<div><br>Date of Birth - <input type="text" id="dob" tabindex="1">
+    <button onclick="calc_age(dob)" tabindex="2">Find Age</button>
+    <p id="age"></p></div>
+    <script src="dob_age.js"></script><br>
+    A. 2) Add elements to array :-<input type="text" id="sortadd" tabindex="3">
+    <button onclick="add_sort(sortadd)" tabindex="4">Add to Array</button>
+    <p id="marr"></p><div>
+    <button onclick="passval()" tabindex="5">Sort Array</button>
+    <p id="sortmAry"></p></div>
+    <script src="mergesort.js"></script>
+    A. 3) Enter two numbers :-<div><br>Number 1 - <input type="text" id="num1" tabindex="6"><br><br>
+    Number 2 - <input type="text" id="num2" tabindex="7"><br><br>
+    <button onclick="gcd(num1,num2)" tabindex="8">Find GCD</button>
+    <p id="gcd"></p></div>
+    <script src="gcd.js"></script><br>
+    A. 4) Add elements to array :-<input type="text" id="add" tabindex="9">
+    <button onclick="addar(add)" tabindex="10">Add to Array</button>
+    <p id="addtoar"></p><div>
+    Enter number of last elements to fetch from array:-<input type="text" id="num" tabindex="11">
+    <button onclick="last_elem_array(ar,num)" tabindex="12">Click</button>
+    <p id="arr"></p></div>
+    <script src="last_elem.js"></script><br>
+    A. 5) Add elements to array :-<input type="text" id="addd" tabindex="13">
+    <button onclick="addDupar(addd)" tabindex="14">Add to Array</button>
+    <p id="adddtoar"></p><div>
+    <button onclick="rmvDp()" tabindex="15">Remove duplicate items</button>
+    <p id="rmvDup"></p></div>
+    <script src="removeDupl.js"></script>
+</body>
+</html>
